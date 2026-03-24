@@ -1,7 +1,6 @@
 
 import streamlit as st
 import pandas as pd
-import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np
 
@@ -150,9 +149,6 @@ fig2 = style_chart(fig2)
 
 col2.plotly_chart(fig2, use_container_width=True)
 
-# -----------------------------
-# ROW 2
-# -----------------------------
 st.markdown("## ⚡ Infrastructure & Management")
 
 col1, col2, col3 = st.columns(3)
